@@ -17,27 +17,5 @@ You'll need to change the 'X_USER_X' on line 49 to the user with tidal-dl instal
 
 
 Recommended tidal-dl settings:
-+-------------------------------+-----------------------------------------------------------+
-| SETTINGS                      | VALUE                                                     |
-+-------------------------------+-----------------------------------------------------------+
-| Settings path                 | /home/user/.tidal-dl.json                                |
-| Download path                 | /home/user/MusicImport                                   |
-| Album folder format           | {ArtistName}/{AlbumTitle} ({AlbumYear})                   |
-| Playlist folder format        | Playlist/{PlaylistName} [{PlaylistUUID}]                  |
-| Track file format             | {TrackNumber} - {TrackTitle}                              |
-| Video file format             | {VideoNumber} - {ArtistName} - {VideoTitle}{ExplicitFlag} |
-| Audio quality                 | AudioQuality.Master                                       |
-| Video quality                 | VideoQuality.P1080                                        |
-| Use playlist folder           | True                                                      |
-| Check exist                   | False                                                     |
-| Show progress                 | True                                                      |
-| Show Track Info               | False                                                     |
-| Save AlbumInfo.txt            | False                                                     |
-| Save covers                   | False                                                     |
-| Include singles & EPs         | False                                                     |
-| Language                      | English                                                   |
-| Save timed lyrics (.lrc file) | False                                                     |
-| Multi thread download         | False                                                     |
-| APIKey support                | [4]Normal/High/HiFi/Master                                |
-| Use Download Delay            | True                                                      |
-+-------------------------------+-----------------------------------------------------------+
+<img width="690" alt="image" src="https://github.com/dirty-jimm/Tidal_DL_Plus/assets/41983227/820dc294-9883-4834-8c4f-ddc9a7cfd419">
+
