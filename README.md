@@ -17,5 +17,6 @@ You'll need to change the 'X_USER_X' on line 49 to the user with tidal-dl instal
 
 
 Recommended tidal-dl settings:
+
 <img width="690" alt="image" src="https://github.com/dirty-jimm/Tidal_DL_Plus/assets/41983227/820dc294-9883-4834-8c4f-ddc9a7cfd419">
 
