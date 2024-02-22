@@ -1,3 +1,31 @@
+import tidalapi
+import subprocess
+import os
+
+from tendo import singleton
+me = singleton.SingleInstance() # will sys.exit(-1) if other instance is running
+
+
+session = tidalapi.Session()
+current_directory = os.path.dirname(__file__)
+cred_file = current_directory+"/.credentials" #location of file that will Tidal Api creds
+
+def read_creds(): #read api creds
+    f = open(cred_file, "r")
+    Lines = f.readlines()
+    type = Lines[0][4:].strip()
+    token = Lines[1][4:].strip()
+    refresh = Lines[2][4:].strip()
+    expiry = Lines[3][4:].strip()
+    # print(type)
+    # print(token)
+    # print(refresh)
+    # print(expiry)
+    return type, token, refresh, expiry
+
+
+def write_creds(typ, tok, ref, exp): #write api creds
+    f = open(cred_file, "w+")
     f.write("typ=" + typ + "\n")
     f.write("tok=" + tok + "\n")
     f.write("ref=" + ref + "\n")
@@ -56,4 +84,3 @@ if connect(session):
     check_albums(session)
 else:
     print("Connection has failed somewhere")
-
